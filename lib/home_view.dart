@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import './url_provider.dart';
 
 class HomeView extends StatelessWidget {
-  const HomeView({super.key});
+  final urlM = UrlProvider();
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +19,9 @@ class HomeView extends StatelessWidget {
                 Container(
                   width: (MediaQuery.of(context).size.width) / 2,
                   child: InkWell(
-                    onTap: () {},
+                    onTap: () {
+                      urlM.goToUrl(strUrl: "https://tnromy.com");
+                    },
                     child: Container(
                       width: 150,
                       height: 150,
@@ -33,7 +36,9 @@ class HomeView extends StatelessWidget {
                 Container(
                   width: (MediaQuery.of(context).size.width) / 2,
                   child: InkWell(
-                    onTap: () {},
+                    onTap: () {
+                      urlM.goToUrl(strUrl: "https://tnromy.com");
+                    },
                     child: Container(
                       width: 150,
                       height: 150,
@@ -56,7 +61,9 @@ class HomeView extends StatelessWidget {
                 Container(
                   width: (MediaQuery.of(context).size.width) / 2,
                   child: InkWell(
-                    onTap: () {},
+                    onTap: () {
+                      urlM.goToUrl(strUrl: "https://tnromy.com");
+                    },
                     child: Container(
                       width: 150,
                       height: 150,
@@ -71,7 +78,9 @@ class HomeView extends StatelessWidget {
                 Container(
                   width: (MediaQuery.of(context).size.width) / 2,
                   child: InkWell(
-                    onTap: () {},
+                    onTap: () {
+                      urlM.goToUrl(strUrl: "https://tnromy.com");
+                    },
                     child: Container(
                       width: 150,
                       height: 150,
