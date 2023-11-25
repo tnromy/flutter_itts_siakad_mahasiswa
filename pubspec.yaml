@@ -62,6 +62,8 @@ flutter:
     - assets/6.jpg
     - assets/7.jpg
     - assets/donghae.jpg
+    - assets/splash1.png
+    - assets/splash2.png
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
