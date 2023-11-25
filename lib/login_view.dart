@@ -7,6 +7,15 @@ class LoginView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text('Sistem Akademik Mahasiswa', style: TextStyle(color: Colors.white)),
+        backgroundColor: Colors.blue,
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back),
+          color: Colors.white,
+          onPressed: () {},
+        ),
+      ),
       body: Center(
         child: Container(
           margin: EdgeInsets.all(10),

@@ -40,6 +40,7 @@ class _PagesState extends State<Pages> {
                       },
           ),
         ],
+        leading: Container(),
       ),
       body: _pages[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
