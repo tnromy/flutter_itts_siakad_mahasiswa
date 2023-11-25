@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import './home_view.dart';
 import './profile_view.dart';
 import './schedule_view.dart';
+import './login_view.dart';
 
 class Pages extends StatefulWidget {
   const Pages({super.key});
@@ -24,7 +25,21 @@ class _PagesState extends State<Pages> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('My App'),
+        title: Text('Sistem Akademik Mahasiswa', style: TextStyle(color: Colors.white)),
+        backgroundColor: Colors.blue,
+        actions: [
+          IconButton(
+            icon: Icon(Icons.logout),
+            color: Colors.white,
+            onPressed: (){
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => LoginView( )),
+                        );
+                      },
+          ),
+        ],
       ),
       body: _pages[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(

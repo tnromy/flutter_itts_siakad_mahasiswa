@@ -2,12 +2,10 @@ import 'package:flutter/material.dart';
 import './schedule_model.dart';
 
 class ScheduleView extends StatelessWidget {
-  final scheduleM = ScheduleModel();
-
   @override
   Widget build(BuildContext context) {
     return ListView(
-      children: scheduleM.schedules().asMap().entries.map((e) {
+      children: ScheduleModel().schedules().asMap().entries.map((e) {
         return Container(
           margin: EdgeInsets.all(2),
           child: Card(
