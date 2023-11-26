@@ -20,13 +20,13 @@ class HomeView extends StatelessWidget {
                   width: (MediaQuery.of(context).size.width) / 2,
                   child: InkWell(
                     onTap: () {
-                      urlM.goToUrl(strUrl: "https://tnromy.com");
+                      urlM.goToUrl(strUrl: "https://itts.ac.id");
                     },
                     child: Container(
                       width: 150,
                       height: 150,
                       child: CircleAvatar(
-                        backgroundImage: AssetImage("assets/1.jpg"),
+                        backgroundImage: AssetImage("assets/itts.jpeg"),
                       ),
                     ),
                   ),
@@ -37,13 +37,13 @@ class HomeView extends StatelessWidget {
                   width: (MediaQuery.of(context).size.width) / 2,
                   child: InkWell(
                     onTap: () {
-                      urlM.goToUrl(strUrl: "https://tnromy.com");
+                      urlM.goToUrl(strUrl: "https://itts.ac.id");
                     },
                     child: Container(
                       width: 150,
                       height: 150,
                       child: CircleAvatar(
-                        backgroundImage: AssetImage("assets/1.jpg"),
+                        backgroundImage: AssetImage("assets/itts.jpeg"),
                       ),
                     ),
                   ),
@@ -62,13 +62,13 @@ class HomeView extends StatelessWidget {
                   width: (MediaQuery.of(context).size.width) / 2,
                   child: InkWell(
                     onTap: () {
-                      urlM.goToUrl(strUrl: "https://tnromy.com");
+                      urlM.goToUrl(strUrl: "https://itts.ac.id");
                     },
                     child: Container(
                       width: 150,
                       height: 150,
                       child: CircleAvatar(
-                        backgroundImage: AssetImage("assets/1.jpg"),
+                        backgroundImage: AssetImage("assets/itts.jpeg"),
                       ),
                     ),
                   ),
@@ -79,13 +79,13 @@ class HomeView extends StatelessWidget {
                   width: (MediaQuery.of(context).size.width) / 2,
                   child: InkWell(
                     onTap: () {
-                      urlM.goToUrl(strUrl: "https://tnromy.com");
+                      urlM.goToUrl(strUrl: "https://itts.ac.id");
                     },
                     child: Container(
                       width: 150,
                       height: 150,
                       child: CircleAvatar(
-                        backgroundImage: AssetImage("assets/1.jpg"),
+                        backgroundImage: AssetImage("assets/itts.jpeg"),
                       ),
                     ),
                   ),

@@ -13,7 +13,11 @@ class LoginView extends StatelessWidget {
         leading: IconButton(
           icon: Icon(Icons.arrow_back),
           color: Colors.white,
-          onPressed: () {},
+          onPressed: ()  async {
+                        Navigator.pop(
+                          context
+                        );
+                      },
         ),
       ),
       body: Center(

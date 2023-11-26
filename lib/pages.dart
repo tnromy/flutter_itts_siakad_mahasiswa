@@ -31,11 +31,9 @@ class _PagesState extends State<Pages> {
           IconButton(
             icon: Icon(Icons.logout),
             color: Colors.white,
-            onPressed: (){
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => LoginView( )),
+            onPressed: ()  async {
+                        Navigator.pop(
+                          context
                         );
                       },
           ),

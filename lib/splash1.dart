@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import './splash2.dart';
+import 'package:flutter/services.dart'; 
 
 class Splash1 extends StatelessWidget {
   const Splash1({super.key});
@@ -22,7 +24,11 @@ class Splash1 extends StatelessWidget {
                 alignment: Alignment.topLeft,
                 child: ElevatedButton(
                   child: Text("Exit"),
-                  onPressed: (){},
+                  onPressed: ()  async {
+                        SystemNavigator.pop(
+                          
+                        );
+                      },
                 ),
               ),
             ),
@@ -55,7 +61,13 @@ class Splash1 extends StatelessWidget {
                     alignment: Alignment.bottomRight,
                     child: ElevatedButton(
                       child: Text("Next"),
-                      onPressed: (){},
+                      onPressed: ()  async {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => Splash2( )),
+                        );
+                      },
                     ),
                   ),
                 ],
